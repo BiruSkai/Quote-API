@@ -49,7 +49,7 @@ app.post("/api/quotes/", (req, res) => {
                 }
                 quotes.push(newQuote);
                 response.quote = newQuote;
-                res.send({response});
+                res.status(201).send(response);
         } else {
                 res.status(404).send();
         }

@@ -36,15 +36,24 @@ This route should verify that both properties exist in the request query string 
 - All Quotes<br>
 ![all quotes](/images/get-all-quotes.png)
 
-- Fetch by Author (response)<br>
+- Fetch By Author (response)<br>
 ![get quote by person](/images/get-quoteByPerson-res.png)
 
-- Add New Quote (request)
-- Add New Quote (response)
+- Add New Quote (request)<br>
+![new quote req](/images/post-req.png)
+
+- Add New Quote (response)<br>
+![new quote res](/images/post-res.png)
+
+- New Quote Added In The List<br>
+![new quote added in the list](/images/post-result-list.png)
+
 - Update Quote (request)<br>
 ![update a quote request](/images/update-quote-req.png)
+
 - Update Quote (response)<br>
 ![update a quote response](/images/update-quote-res.png)
+
 - Delete Quote (response)<br>
 ![delete a quote by id response](/images/delete-quoteById-res.png)
 ***
