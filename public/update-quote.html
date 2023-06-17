@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Quote API</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+        <h1>Quote API</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="add-quote.html">Add a New Quote</a>
+          <a href="update-quote.html">Update a Quote</a>
+        </nav>
+        <h2>Update Quote</h2>
+        <div class="inputs">
+                <label for="id">Quote id:</label>
+                <input id="id" value="">
+                <label for="quote">Quote text:</label>
+                <input id="quote" value="">
+                <label for="person">Person:</label>
+                <input id="person" value="">
+                <label for="year">Year:</label>
+                <input id="year" value="">
+                <label for="occupation">Occupation:</label>
+                <input id="occupation" value="">
+        </div>
+        <button id="update-quote">Submit updated quote</button>
+        <div>
+                <p id="error-message" style="display: none">All input fields must be filled in order to update a quote</p>
+        </div>
+        <div id="new-quote">
+
+        </div>
+        <script src="update-quote.js"></script>
+</body>
+</html>
